@@ -1,0 +1,11 @@
+<div class ="input-menu">
+<input class="input" type="text" [(ngModel)]="newTask" (keyup.enter)="onAdd(newTask)" required>
+<button class="button add-btn" (click)="onAdd(newTask)">ADD</button>
+<button class="button remove-btn" (click)="onClear()">DELETE ALL</button>
+</div>
+<div fxLayout="row wrap" fxLayoutGap="20px">
+        <div *ngFor="let todo of todoList">
+                <item [todo]="todo"></item>
+        </div>
+</div>
+

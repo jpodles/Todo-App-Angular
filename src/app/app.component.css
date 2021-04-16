@@ -1,0 +1,42 @@
+.input-menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: auto;
+    width: 50em;
+
+}
+.input {
+    width: 25em;
+    height: 1.5em;
+}
+
+.button{
+	width: 7em;
+    color: white;
+	border: none;
+
+    margin-left: 0.5em;
+
+}
+
+.add-btn{
+    background-color: #2196F3;
+}
+.add-btn:hover{
+    background-color: #90CAF9;
+}
+.add-btn:active{
+    background-color: #1565C0;
+}
+
+
+.remove-btn{
+    background-color:#EF5350;
+}
+.remove-btn:hover{
+    background-color:#EF9A9A;
+}
+.remove-btn:active{
+    background-color:#C62828;
+}

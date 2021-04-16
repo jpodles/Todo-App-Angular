@@ -1,0 +1,62 @@
+.todo-item {
+	display: flex;
+	flex-wrap: wrap;
+	height: 10em;
+	width: 18em;
+	border-radius: 5%;
+	margin-top: 1em;
+
+}
+
+.todo-item:hover{
+	box-shadow:0 0 10px;
+}
+
+.item-content{
+	width: 15em;
+	margin: auto;
+}
+
+.item-label{
+	font-size: 1.2em;
+	height: 3em;
+	margin: auto;
+	margin-top: 1em;
+}
+.item-date{
+	margin-top: 0.5rem;
+	font-size: 0.9em;
+}
+
+
+.done-item{
+	text-decoration: line-through;
+}
+
+.button{
+	width:8em;
+	color: white;
+	border: none;
+	padding: 0.5em;
+	border-radius: 10%;
+	margin:auto;
+	margin-bottom: 1em;
+}
+
+.done-btn{
+	background-color: #4CAF50;
+}
+
+.done-btn:hover{
+	background-color: #81C784;
+}
+.done-btn:active{
+	background-color: #2E7D32;
+}
+
+.delete-btn{
+	background-color:#E64A19;
+}
+.delete-btn:hover{
+	background-color: #FF5722;
+}

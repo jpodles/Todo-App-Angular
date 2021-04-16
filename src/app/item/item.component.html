@@ -1,0 +1,8 @@
+ <div class="todo-item"[style.background-color] ="changeBgColor()">
+ <div class="item-content"  >
+        <p class="item-label"[style.text-decoration]="addStrike()">{{todo.label}}</p>
+        <p class="item-date"> {{todo.date | mydate}}</p>
+ </div>
+    <button class="button done-btn" (click)="onDone(todo)">DONE</button>
+    <button class="button delete-btn" (click)="onDelete(todo)">DELETE</button>
+</div>
